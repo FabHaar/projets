@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+#Machine Client
+
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/debian11"
+  
+  config.vm.hostname = "client"
+  # mettre deux IP différentes à la place de XX sur serveur et client:
+  #config.vm.network "private_network", type: "static", ip: "192.168.56.10"
+  config.vm.network "public_network", bridge: "enp0s3", ip: "192.168.1.10"
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  
+  config.vm.synced_folder "script", "/home/vagrant"
+  
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y apache2-utils nmap
+  SHELL
+end

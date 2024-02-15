@@ -1,0 +1,7 @@
+CREATE USER 'cron'@'%' IDENTIFIED BY 'cron';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'cron'@'%';
+
+GRANT ALL PRIVILEGES ON `dolibarr`.* TO 'cron'@'%';
+
+FLUSH PRIVILEGES;

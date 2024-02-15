@@ -1,0 +1,41 @@
+Table machines {
+	id int [pk,increment]
+	marque varchar
+	os varchar
+	ram int
+	date_achat date
+	id_utilisateur int
+}
+
+Table utilisateurs {
+	id int [pk,increment]
+	nom varchar
+	prenom varchar
+}
+
+Table logiciels {
+	id int [pk,increment]
+	nom varchar
+	id_machine int
+	version varchar
+	licence varchar
+}
+
+Table techniciens {
+	id int [pk,increment]
+	nom varchar
+	prenom varchar
+}
+
+Table interventions {
+	id int [pk,increment]
+	id_technicien int
+	date_intervention date
+	id_machine int
+	action varchar
+}
+
+Ref : machines.id_utilisateur > utilisateurs.id
+Ref : interventions.id_machine > machines.id
+Ref : logiciels.id_machine > machines.id
+Ref : interventions.id_technicien > techniciens.id

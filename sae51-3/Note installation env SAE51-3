@@ -1,0 +1,15 @@
+#Sur hote pour activer la virtualisation imbriqué (VT-x) :
+
+cd "C:\Program Files\Oracle\VirtualBox\"
+.\VBoxManage.exe modifyvm [NOM VM] --nested-hw-virt on
+
+
+#Installation de l'environnement de travail sur la VM :
+
+sudo apt update
+sudo apt upgrade
+sudo apt install virtualbox
+
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install vagrant

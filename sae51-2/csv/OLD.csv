@@ -1,0 +1,22 @@
+Third-party name*,Alias Name,Parent company,Status*,Customer Code,Vendor Code,Customer accounting code,Vendor accounting code,Address,Zip Code,City,State/Province code,Country code,Phone,Fax,Url,Email,Employees,Third-party type,Business entity type,Professional ID 1,Professional ID 2,Professional ID 3,Professional ID 4,Professional ID 5,Professional ID 6,VAT ID,Capital,Prospect status,Note (private),Note (public),Customer*,Vendor*,Prospect potential,Payment Type - Customer,Payment Terms - Customer,Payment Type - Vendor,Payment Term - Vendor,Max. for outstanding bill,Payment bank account,Incoterms,Sales tax used,BarCode,Default language,Canvas,Creation date,Use Multicurrency,Currency
+
+Acme Corp.,Acme,,0,CU-1001,SU-1001,AC-1001,ACV-1001,123 Main Street,12345,Sunnyville,CA,US,+1 (555) 123-4567,+1 (555) 987-6543,https://www.acmecorp.com,info@acmecorp.com,500,TE_SMALL,SASU,123-456-789,789-012-345,ABC123,DEF456,GHI789,JKL012,FR1234567890,10000,3,Prospective Customer,,,0,1,,,50000,,,DDP,1,ACME123,2023-12-04,1,USD
+
+Global Innovations Ltd.,GlobalInnovations,,1,CU-1002,SU-1002,AC-1002,ACV-1002,456 Tech Avenue,56789,Innovation City,NY,US,+1 (555) 234-5678,+1 (555) 876-5432,https://www.globalinnovations.com,info@globalinnovations.com,750,TE_LARGE,SASU,234-567-890,567-890-123,MNO234,PQR567,XYZ890,ABC123,FR2345678901,75000,2,Supplier and Customer,,,1,1,,,,75000,,,CIF,1,GIL456,2023-12-04,1,EUR
+
+Tech Solutions Inc.,TechSolutions,,1,CU-1003,SU-1003,AC-1003,ACV-1003,789 Circuit Lane,10111,Technocity,TX,US,+1 (555) 345-6789,+1 (555) 987-6543,https://www.techsolutions.com,info@techsolutions.com,300,TE_SMALL,SASU,345-678-901,901-234-567,MNO901,PQR234,XYZ567,ABC890,FR3456789012,30000,1,Customer,,,0,,,30000,,,EXW,,,TSC789,2023-12-04,,,GBP
+
+ABC Pharmaceuticals,ABCPharma,,1,CU-1004,SU-1004,AC-1004,ACV-1004,987 Pharma Street,54321,Medicineville,NY,US,+1 (555) 567-8901,+1 (555) 901-2345,https://www.abcpharma.com,info@abcpharma.com,1200,TE_LARGE,SASU,567-890-123,890-123-456,MNO567,PQR890,XYZ123,ABC456,FR4567890123,120000,2,Supplier and Customer,,,1,1,,,,120000,,,CIF,1,ABC789,2023-12-04,1,JPY
+
+XYZ Manufacturing,XYZMfg,,1,CU-1005,SU-1005,AC-1005,ACV-1005,456 Factory Road,90909,Industrytown,TX,US,+1 (555) 234-5678,+1 (555) 876-5432,https://www.xyzmfg.com,info@xyzmfg.com,900,TE_MEDIUM,SARL,234-567-890,567-890-123,MNO234,PQR567,XYZ890,ABC123,FR5678901234,90000,2,Supplier and Customer,,,1,1,,,,90000,,,CIF,1,XYZ789,2023-12-04,1,CNY
+
+Eco Green Solutions,EcoGreen,,1,CU-1006,SU-1006,AC-1006,ACV-1006,789 Eco Street,60606,Greencity,CA,US,+1 (555) 345-6789,+1 (555) 987-6543,https://www.ecogreensolutions.com,info@ecogreensolutions.com,600,TE_MEDIUM,SASU,345-678-901,901-234-567,MNO901,PQR234,XYZ567,ABC890,FR3456789012,60000,2,Supplier and Customer,,,1,1,,,,60000,,,EXW,0,ECO789,2023-12-04,0,AUD
+
+InnoTech Innovations,InnoTech,,1,CU-1007,SU-1007,AC-1007,ACV-1007,123 Innovate Lane,70707,Technoville,CA,US,+1 (555) 567-8901,+1 (555) 901-2345,https://www.innotechinnovations.com,info@innotechinnovations.com,800,TE_MEDIUM,SARL,567-890-123,890-123-456,MNO567,PQR890,XYZ123,ABC456,FR4567890123,80000,2,Supplier and Customer,,,1,1,,,,80000,,,CIF,1,ITI789,2023-12-04,1,CAD
+
+Global Logistics Solutions,GlobalLogistics,,1,CU-1008,SU-1008,AC-1008,ACV-1008,987 Shipping Lane,12345,Logisticstown,CA,US,+1 (555) 890-1234,+1 (555) 345-6789,https://www.globallogisticsolutions.com,info@globallogisticsolutions.com,450,TE_SMALL,SASU,890-123-456,456-789-012,JKL234,PQR567,XYZ890,MNO123,FR4567890123,500000,3,Prospective Customer,,,0,1,,,45000,,,DDP,0,GLS789,2023-12-04,0,INR
+
+Quality Foods Ltd.,QualityFoods,,1,CU-1009,SU-1009,AC-1009,ACV-1009,234 Gourmet Street,56789,Foodsville,TX,US,+1 (555) 901-2345,+1 (555) 678-9012,https://www.qualityfoods.com,info@qualityfoods.com,1100,TE_LARGE,SAS,901-234-567,345-678-901,MNO901,UVW234,JKL567,PQR890,FR5678901234,600000,2,Supplier and Customer,,,1,1,,,,110000,,,CIF,1,QLF789,2023-12-04,1,CHF
+
+InnoFashion Group,InnoFashion,,1,CU-1010,SU-1010,AC-1010,ACV-1010,876 Catwalk Lane,89012,Styleville,NY,US,+1 (555) 123-4567,+1 (555) 789-0123,https://www.innofashiongroup.com,info@innofashiongroup.com,950,TE_MEDIUM,SARL,123-456-789,789-012-345,DEF123,XYZ456,ABC789,GHI012,FR6789012345,700000,1,Customer,,,1,1,,,,95000,,,EXW,1,IFG789,2023-12-04,1,GBP
+

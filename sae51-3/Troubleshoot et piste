@@ -1,0 +1,8 @@
+#Troubleshoot : problème avec une adresse ip statique. besoin de modifier la plage autorisé par virtualbox pour le host-only
+#marche pas :
+config.vm.network "private_network", type: "static", ip: "192.168.0.1"
+
+
+##problème avec l'environnement vagrant, le supprimer avec : 
+rm -rf .vagrant
+

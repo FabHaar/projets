@@ -1,0 +1,33 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+#machine Serveur
+
+Vagrant.configure("2") do |config|
+  
+  config.vm.box = "generic/debian11"
+
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+  
+  config.vm.hostname = "serveur"
+  # mettre deux IP différentes à la place de XX sur serveur et client:
+  #mes tests :
+  #config.vm.network :private_network, ip: "192.168.0.1"
+  #config.vm.network "private_network", type: "dhcp"
+  #config.vm.network "private_network", type: "static", ip: "192.168.56.1"
+  config.vm.network "public_network", bridge: "enp0s3", ip: "192.168.1.2"
+  
+  config.vm.synced_folder "script", "/home/vagrant"
+  #config.vm.synced_folder "conf", "/etc/nginx/modules-enabled/"
+  
+  config.vm.provision "shell", inline: <<-SHELL
+    #VBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.1.2 --netmask 255.255.255.0
+    apt-get update
+    apt-get install -y nginx nginx-extras ufw iftop
+    
+    #Lancement du script d'initialisation
+    chmod u+x init.sh
+    ./init.sh
+    
+  SHELL
+end

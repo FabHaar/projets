@@ -1,0 +1,1 @@
+SELECT * FROM machines WHERE date_achat BETWEEN '2018-01-01' AND '2020-12-31';

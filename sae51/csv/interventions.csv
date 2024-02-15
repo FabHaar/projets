@@ -1,0 +1,13 @@
+id_technicien;date_intervention;id_machine;action
+11;2021-01-20;4;Maintenance
+11;2021-02-25;6;Maintenance
+11;2021-04-05;1;Réparation
+4;2021-05-10;10;Maintenance
+5;2021-07-20;2;Réparation
+4;2021-10-11;10;Maintenance
+5;2021-11-20;2;Réparation
+1;2022-03-15;19;Maintenance
+11;2022-04-20;16;Réparation
+11;2022-06-05;14;Maintenance
+4;2022-08-10;15;Réparation
+5;2022-09-25;19;Maintenance

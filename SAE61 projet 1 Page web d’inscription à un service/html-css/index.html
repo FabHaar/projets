@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}"> <!-- Lien vers mon fichier CSS -->
+</head>
+<body>
+    <div class="container">
+	<h1>Accueil</h1>
+	<p>Bienvenue sur notre site !</p>
+	<p>Vous souhaitez vous connecter<br> <a href="/connect"> Page de connexion à votre compte</a>.</p>
+	<p>Pour créer un nouveau compte, veuillez accéder à la <a href="/newuser">page de création de compte</a>.</p><br>
+	
+	<!-- déplacer dans une page après connection au compte -->
+	<p><a href="/liste">page de liste des identifiants</a>.</p>
+	
+    </div>
+</body>
+</html>

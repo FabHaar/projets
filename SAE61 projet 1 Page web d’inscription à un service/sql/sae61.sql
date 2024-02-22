@@ -1,0 +1,8 @@
+USE sae61;
+
+CREATE TABLE utilisateurs (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	identifiant VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL
+);

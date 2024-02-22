@@ -1,0 +1,14 @@
+Regex à utiliser : 
+entre 6 et 15 caractères : ^.{6,15}$
+au moins un chiffre : .*\d.*
+au moins une minuscule : .*[a-z].*
+au moins une majuscule : .*[A-Z].*
+au moins un de ces caractères : .*[#%{}@].*
+
+utilisateur :
+entre 6 et 10 caracères :  ^.{6,10}$
+majuscule eclue : ^[^A-Z]*$
+unqiuement caractère alphanumerique ascii : ^[a-z0-9]*$
+
+email : 
+[A-Za-z0-9_\-\.]+@[A-Za-z0-9\-\.]+

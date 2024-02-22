@@ -9,4 +9,4 @@ Bienvenue sur mon dépôt github contenant tous les projets mettant en avant des
 * [SAE52 projet 1 Collecte et traitement des logs de fonctionnement](https://github.com/FabHaar/projets/tree/main/SAE52%20projet%201%20Collecte%20et%20traitement%20des%20logs%20de%20fonctionnement)
 * [SAE61 projet 1 Page web d’inscription à un service](https://github.com/FabHaar/projets/tree/main/SAE61%20projet%201%20Page%20web%20d%E2%80%99inscription%20%C3%A0%20un%20service)
 
-Chaque projet est accompagné du sujet comportant le cahier des charges à respecter.
+Chaque projet est accompagné du sujet (nommé sujet.pdf dans chaque dossier) comportant le cahier des charges à respecter.
